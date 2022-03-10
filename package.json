@@ -18,6 +18,10 @@
   ],
   "author": "ClassFunc",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClassFunc/cloud-storager"
+  },
   "dependencies": {
     "busboy": "^1.4.0",
     "cf-gen-id": "^3.0.1"
