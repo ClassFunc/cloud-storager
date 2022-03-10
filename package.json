@@ -1,14 +1,21 @@
 {
   "name": "cloud-storager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Save uploaded files to bucket for Firebase & Google Cloud Storage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "firebase",
+    "storage",
+    "google cloudstorage",
+    "firebase storage",
+    "upload",
+    "files"
+  ],
+  "author": "ClassFunc",
+  "license": "MIT",
   "dependencies": {
     "busboy": "^1.4.0",
     "cf-gen-id": "^3.0.0",
