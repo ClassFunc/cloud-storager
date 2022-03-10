@@ -1,7 +1,7 @@
 {
   "name": "cloud-storager",
-  "version": "1.0.1",
-  "description": "Save uploaded files to bucket for Firebase & Google Cloud Storage",
+  "version": "1.0.2",
+  "description": "Save uploaded files to bucket for Firebase & Google Cloud Storage ExpressJS Middleware",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +12,14 @@
     "google cloudstorage",
     "firebase storage",
     "upload",
-    "files"
+    "files",
+    "express",
+    "middleware"
   ],
   "author": "ClassFunc",
   "license": "MIT",
   "dependencies": {
     "busboy": "^1.4.0",
-    "cf-gen-id": "^3.0.0",
-    "express": "^4.17.3"
+    "cf-gen-id": "^3.0.0"
   }
 }
