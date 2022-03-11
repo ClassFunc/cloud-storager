@@ -1,6 +1,6 @@
 # Cloud Storager
 
-## Save uploaded files to bucket for Firebase & Google Cloud Storage
+### [ExpressJS Middleware] Save uploaded files to bucket for Firebase & Google Cloud Storage
 
 ## Install:
 
@@ -20,7 +20,8 @@ const app = initializeApp();
 const storage = getStorage(app);
 const bucket = storage.bucket('YOUR BUCKET NAME');
 
-app.post('/', cloudStorager({bucket}), async (req, res) => {
+const expressApp = require('express')
+expressApp.post('/', cloudStorager({bucket}), async (req, res) => {
     res.json(req.files);
 });
 ```
@@ -29,7 +30,7 @@ app.post('/', cloudStorager({bucket}), async (req, res) => {
 
 `bucket`: A Bucket (https://cloud.google.com/nodejs/docs/reference/storage/latest/Bucket)
 
-`req.files`: Array of uploaded files
+`req.files`: Array of saved files, contains downloadUrl.
 
 ```json
 [
