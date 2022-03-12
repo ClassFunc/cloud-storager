@@ -9,10 +9,10 @@ busboy@^1.4.0:
   dependencies:
     streamsearch "^1.1.0"
 
-cf-gen-id@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/cf-gen-id/-/cf-gen-id-3.0.1.tgz#faf0a772d599b92aff629ccecad4c19467836222"
-  integrity sha512-VFQemV1q7SU8zOA1tMiJN6GfgNeQqKeCyKLmNfypQFUoADD4QswBeEbhAE5QflRkq9qe1ry5u0KQX1T4yjHNWw==
+cf-gen-id@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/cf-gen-id/-/cf-gen-id-3.0.7.tgz#fb2271c50a7f99061a185304d05d9ca5229aa683"
+  integrity sha512-IxQTmxD46xBHPawKcjRdDq0+OSV6PSIn/3GPxTGelh7rzz8V/W0oXOotkEonI4s4WZyuA9L4l6I0KPdZ6V/elg==
   dependencies:
     nanoid "^3.3.1"
 

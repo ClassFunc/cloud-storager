@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "busboy": "^1.4.0",
-    "cf-gen-id": "^3.0.1"
+    "cf-gen-id": "^3.0.7"
   }
 }
