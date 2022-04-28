@@ -13,7 +13,9 @@ yarn add cloud-storager
 ## Usage:
 
 ```js
+const cloudStorager = require('cloud-storager')
 const app = require('express')()
+
 app.post('/', cloudStorager({bucket}), async (req, res) => {
     res.json(req.files);
 });
@@ -38,8 +40,10 @@ app.post('/', cloudStorager({bucket}), async (req, res) => {
 ```
 
 ## Author:
+
 ClassFunc Softwares.,JSC
 
 ## License:
+
 MIT
 
