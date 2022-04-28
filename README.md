@@ -13,15 +13,8 @@ yarn add cloud-storager
 ## Usage:
 
 ```js
-const {initializeApp} = require('firebase-admin/app');
-const {getStorage} = require('firebase-admin/storage');
-const cloudStorager = require('cloud-storager');
-const app = initializeApp();
-const storage = getStorage(app);
-const bucket = storage.bucket('YOUR BUCKET NAME');
-
-const expressApp = require('express')
-expressApp.post('/', cloudStorager({bucket}), async (req, res) => {
+const app = require('express')()
+app.post('/', cloudStorager({bucket}), async (req, res) => {
     res.json(req.files);
 });
 ```
@@ -43,3 +36,10 @@ expressApp.post('/', cloudStorager({bucket}), async (req, res) => {
   }
 ]
 ```
+
+## Author:
+ClassFunc Softwares.,JSC
+
+## License:
+MIT
+

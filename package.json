@@ -1,6 +1,6 @@
 {
   "name": "cloud-storager",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Save uploaded files to bucket for Firebase & Google Cloud Storage ExpressJS Middleware",
   "main": "index.js",
   "scripts": {
